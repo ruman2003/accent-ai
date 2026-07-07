@@ -1617,7 +1617,7 @@ Return this exact JSON:
 
       {/* ── Header ── */}
       <div style={{ background:"rgba(13,24,41,0.96)", borderBottom:"1px solid rgba(45,108,223,0.2)", padding:`13px ${isMobile?"12px":"18px"}`, display:"flex", alignItems:"center", justifyContent:"space-between", backdropFilter:"blur(10px)", position:"sticky", top:0, zIndex:100 }}>
-        <div style={{ fontSize:18, fontWeight:800, letterSpacing:"-0.5px", color:C.white }}>Accent<span style={{color:C.gold}}>AI</span><span style={{fontSize:10,color:C.gray,fontWeight:400,marginLeft:8}}>by RUDRA </span></div>
+        <div style={{ fontSize:18, fontWeight:800, letterSpacing:"-0.5px", color:C.white }}>Accent<span style={{color:C.gold}}>AI</span><span style={{ fontSize: 12, color: "#a0aec0", fontWeight: 500, marginLeft: 10, letterSpacing: "1.5px", fontStyle: "italic" }}> by Rudra </span></div>
         <div style={{ display:"flex", gap:6, alignItems:"center", flexWrap:"wrap" }}>
           {dueCount > 0 && <Pill color={C.red}>📅 {dueCount} due</Pill>}
           <Pill color={C.gold}>🔥 {stats.streak} streak</Pill>
