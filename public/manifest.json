@@ -1,0 +1,20 @@
+{
+  "name": "AccentAI",
+  "short_name": "AccentAI",
+  "description": "English Pronunciation Trainer by AntiGravity — master every phoneme with AI coaching",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0F1E",
+  "theme_color": "#F5C518",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities"],
+  "lang": "en-US"
+}
